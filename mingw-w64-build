@@ -16,10 +16,10 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-ROOT_PATH="$HOME/.zeranoe/mingw-w64"
+ROOT_PATH="$HOME/.mingw-w64"
 
 MINGW_W64_BRANCH="master"
-BINUTILS_BRANCH="binutils-2_42-branch"
+BINUTILS_BRANCH="binutils-2_43-branch"
 GCC_BRANCH="releases/gcc-14"
 
 ENABLE_THREADS="--enable-threads=posix"
@@ -37,7 +37,7 @@ Usage:
 Archs:
   i586    Windows 32-bit for old CPUs (Intel Pentium (MMX), AMD K5, K6, K6-2, K6-III)
   i686    Windows 32-bit (Intel P6 [Pentium Pro], AMD K7 and newer)
-  x86_64  Windows 64-bit
+  x86_64  Windows 64-bit (recommended)
 
 Options:
   -h, --help                   show help
